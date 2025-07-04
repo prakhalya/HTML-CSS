@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr,table,th,td{
+            border:solid black 2px;
+    text-align:center;
+        }
+        .a{
+            width:80px;
+        }
+        .b{
+            width:100px;
+        }
+        .c{
+            width:200px
+        }
+        .d{
+            width:110px;
+        }
+        .e{
+            height:60px;
+        }
+        .f{
+            height:45px;
+        }
+        .g{
+            height:150px;
+        }
+        .h{
+            height:40px;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="a"></th>
+            <th class="a"></th>
+            <th class="b" colspan="3">morning</th>
+            <th>lunch</th>
+            <th class="c" colspan="4">afternoon</th>
+            <th class="d" colspan="3">evening</th>
+        </tr>
+        <tr class="e">
+            <td></td>
+            <td></td>
+            <td>9-10am</td>
+            <td>10-11am</td>
+            <td>11-12am</td>
+            <td>1-2pm</td>
+<td>2-3pm</td>
+<td>3-4pm</td>
+<td>4-5pm</td>
+<td class="a">5-6pm</td>
+<td>6-7pm</td>
+<td>7-8pm</td>
+<td>8-9pm</td>
+        </tr>
+        <tr class="f">
+            <td rowspan="2">work</td>
+            <td>monday</td>
+            <td colspan="3">development meeting</td>
+            <td></td>
+            <td colspan="3">client meeting</td>
+            <td>commute</td>
+            <td colspan="3">fees</td>
+        </tr>
+        <tr class="f">
+            <td>tuesday</td>
+            <td colspan="3">in office</td>
+            <td></td>
+            <td colspan="7">inoffice</td>
+        </tr>
+        <tr>
+            <td class="g" rowspan="2">lecture</td>
+            <td class="h">wednesday</td>
+            <td colspan="3">CSC205</td>
+            <td></td>
+            <td colspan="7">preparation</td>
+        </tr>
+        <tr>
+            <td>thursday</td>
+            <td colspan="3">MAM200</td>
+            <td></td>
+            <td colspan="3">tutorials for MAM200</td>
+            <td colspan="4" class="i">free</td>
+        </tr>
+        <tr class="f">
+            <td>research</td>
+            <td>friday</td>
+            <td colspan="3">research</td>
+            <td></td>
+            <td colspan="7">research</td>
+        </tr>
+    </table>
+</body>
+</html>
